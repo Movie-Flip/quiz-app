@@ -1,0 +1,6 @@
+/* general styles import */
+@import "global.css";
+@import "./components/cards.css";
+@import "./components/darkmode.css";
+@import "./components/footer.css";
+@import "./components/header.css";

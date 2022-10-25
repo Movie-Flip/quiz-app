@@ -1,0 +1,29 @@
+/* Footer and Navi Styles */
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--tealblue);
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: var(--teagreem);
+}
+
+.footernav__iconhighlight {
+  border-bottom: 6px solid #1f363d;
+  padding-bottom: 5px;
+}
+
+.footernav__icon1,
+.footernav__icon2,
+.footernav__icon3 {
+  width: 40px;
+}
