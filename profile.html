@@ -6,16 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Quiz App</title>
+    <script src="./js/index.js" defer></script>
   </head>
-  <body>
+  <body data-js="body">
     <header>
       <h1>Quiz App</h1>
     </header>
 
     <main>
       <section class="darkmode">
-        <div class="darkmode-toggle"></div>
+        <button type="checkbox" id="switch" data-js="darkmode__toggle">
+          Hier klicken
+        </button>
       </section>
+
       <p>Hier folgt das Profil.</p>
     </main>
     <footer>
